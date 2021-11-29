@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+
+
+{
+	printf("Enter your grade is :");
+	char grade ='C';
+	scanf("%c", &grade);
+	
+	switch(grade)
+	{
+		case'1':
+			printf("Excellent\n");
+			break;
+		case'2':
+			printf("Well Done\n");
+			break;
+		case'3':
+			printf("Good\n");
+			break;
+		case'4':
+			printf("Better\n");
+			break;
+		case'5':
+			printf("Better luck, next time\n");
+			break;
+		default:
+			printf("Grade is invalid\n");
+			
+	}
+}
